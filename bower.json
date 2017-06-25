@@ -1,0 +1,21 @@
+{
+  "name": "Nova",
+  "authors": [
+    "Lenin <leningsv@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "bootstrap-select": "latest"
+  }
+}
