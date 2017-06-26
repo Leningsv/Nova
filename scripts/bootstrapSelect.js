@@ -17,5 +17,11 @@ $(document).ready(function () {
     {
         selectCar.append($("<option />").val(this.id).text(this.name));
     });
+    selectCar.val('default');
     selectCar.selectpicker('refresh');
+
+    $('#btnResetSelect').click(function() {
+        selectCar.empty();
+        selectCar.selectpicker('refresh');
+    });
 });
