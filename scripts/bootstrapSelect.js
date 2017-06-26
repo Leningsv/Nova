@@ -12,15 +12,13 @@ $(document).ready(function () {
         }
     ];
     var selectCar= $('#selectCar');
-    console.log(selectCar);
     $.each(listCar,function() 
     {
         selectCar.append($("<option />").val(this.id).text(this.name));
     });
-    selectCar.val('default');
     selectCar.selectpicker('refresh');
 
-    $('#btnResetSelect').click(function() {
+    $('#btnCleanSelect').click(function() {
         selectCar.empty();
         selectCar.selectpicker('refresh');
     });
