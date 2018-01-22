@@ -1,6 +1,6 @@
 # Nova
 
-# Debugear en servidor
+### Debugear en servidor
 
     Copiar el debugger en el servidor.
     Ejecutar msvsmon
